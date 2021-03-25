@@ -50,10 +50,12 @@ nav{
     display: inline-block;
     width:50%;
     padding:10px;
+    float:left;
 }
 
 .nav_left a{
     text-decoration: none;
+    color:#8594A0;
 }
 
 .nav_left{
@@ -61,12 +63,35 @@ nav{
     color:#8594A0;
 }
 
+.nav_right{
+    text-align: right;
+}
 
 .lingue{
     border-bottom: none;
     border-left: none;
     border-right: none;
     border-top: none;
+    background: transparent;   
+}
+
+.btn{
+    border:1px solid #FE775A;
+    padding:10px;
+    border-radius:5px ;
     background: transparent;
+    background-color: #FAFCFE;
+    color:#FE775A;
+    margin:10px;
     
+}
+
+.btn_solid{
+    background-color: #FE775A;
+    color:white;
+}
+
+.fa, .fa-search{
+    margin-right: 10px;
+    color: #1BADC4;
 }
