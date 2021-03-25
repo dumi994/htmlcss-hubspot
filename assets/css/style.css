@@ -143,6 +143,7 @@ header{
 }
 
 .title{
+    font-weight: 500;
     width:30%;
     margin:auto;
     position:absolute;
@@ -156,13 +157,17 @@ header{
 }
 
 .title p{
-    font-size:13px;
+    font-size:15px;
 }
 
 .title span{
     padding:20px;
     float:left;
-    margin:30px 0 30px 0;
+    margin:30px 0 0 0;
+}
+
+.title :nth-child(4){
+    padding:0;
 }
 
 
