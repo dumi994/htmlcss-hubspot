@@ -33,23 +33,32 @@ header{
     background-color: beige;
 }
 
-.nav1{
-    height:100px;
-    background-color: red;
+.nav1{  
+    height:70px;
+    padding:20px 0 20px 0;
+    background-color:#F4F9FD;
+    border-bottom: 1px solid black;
+}
+
+.nav2{
+    height:70px;
+    background-color: #FFFFFF;
+    padding:10px 0 10px 0;
+    color: #405465;
 }
 
 nav{
     margin:auto;
     width:80%;
     height:100%;
-    background-color: blue;
+    
 }
 
-.nav_left, .nav_right{
-    line-height: 30px;
+.nav_left, .nav_right, .nav_logo{
+    /* line-height: 30px; */
     display: inline-block;
     width:50%;
-    padding:10px;
+    padding:10px 0 10px 0;
     float:left;
 }
 
@@ -59,7 +68,6 @@ nav{
 }
 
 .nav_left{
-    background-color: blueviolet;
     color:#8594A0;
 }
 
@@ -94,4 +102,8 @@ nav{
 .fa, .fa-search{
     margin-right: 10px;
     color: #1BADC4;
+}
+
+a{
+    text-decoration: none;
 }
