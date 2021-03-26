@@ -18,6 +18,9 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.testogrosso{
+    font-weight: 600;
+}
 
 .container{
     width:100%;
@@ -145,7 +148,7 @@ header{
 
 main{
     width:100%;
-    height:500px;
+   /*  height:500px; */
    /*  background-color: red; */
     position:relative;
 }
@@ -213,28 +216,20 @@ main{
 }
 
 #cubo > .img_cubo{
+    padding-top: 20px;
+    margin:auto;
     display: block;
-    background-size: 350px;
-    position:absolute;
-    left:50%;
-    transform: translate(-50%);
+
 }
 
 .img_cubo{
-    padding:20px;
     width:350px;
     height:270px;
-    background-size: contain;
-    background-repeat: no-repeat;
+   
 }
 
 .title2{
-    display: block;
     margin:0;
-    position:absolute;
-    top:50%;
-    left:0;
-    transform: translate(-50% -50%);
     text-align: center;
 }
 
@@ -242,16 +237,21 @@ main{
     font-weight: 600;
 }
 
+.title2 span{
+    
+}
+
 /* card */
 
 .card{
+    
     border:2px solid #EAF0F4;
     box-shadow: 2px;
     border-radius: 5px;
-    margin: auto;
+    margin:30px auto;
     width:80%;
     height:350px;
-    background-color: red;
+    background-color: white;
     position:relative;
 }
 
@@ -281,7 +281,7 @@ main{
     float:left;
     padding:50px 50px 30px 50px;
     position:relative;
-    background-color: salmon;
+    
 }
 
 .prima_card h2{
@@ -297,5 +297,18 @@ main{
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    padding: 20px;
+    padding: 20px 20px 0 0;
 }
+
+.prima_card ul li i{
+    color: red;  
+}
+
+.prima_card h3::after{
+    margin-top: 20px;
+    content:'';
+    width:65%;
+    height:1px;
+    background-color: black;
+    float:right;
+}    
