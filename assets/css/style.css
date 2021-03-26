@@ -243,8 +243,7 @@ main{
 
 /* card */
 
-.card{
-    
+.card{  
     border:2px solid #EAF0F4;
     box-shadow: 2px;
     border-radius: 5px;
@@ -280,8 +279,7 @@ main{
     height:100%;
     float:left;
     padding:50px 50px 30px 50px;
-    position:relative;
-    
+    position:relative;    
 }
 
 .prima_card h2{
@@ -297,18 +295,37 @@ main{
     list-style-type: none;
     text-decoration: none;
     display: inline-block;
-    padding: 20px 20px 0 0;
+    padding: 20px 40px 0 0;
 }
 
 .prima_card ul li i{
+    margin:10px 10px 10px 0;
     color: red;  
 }
 
 .prima_card h3::after{
     margin-top: 20px;
+    margin-left: 30px;
     content:'';
     width:65%;
     height:1px;
     background-color: black;
     float:right;
-}    
+}   
+
+
+.col3{
+    width:80%;
+    height:200px;
+    margin:auto;
+}
+
+.cards3{
+    f/* loat: left; */
+    margin:auto;
+    width: calc(100% / 3 - 4px);
+    height: 90%;
+    background-color: salmon;
+    display: inline-block;
+    border-radius: 5px;
+}
