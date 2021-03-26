@@ -20,7 +20,7 @@ body{
 
 .container{
     width:100%;
-    height:2000px;
+    height:2500px;
     background-color: aquamarine;
 }
 
@@ -60,7 +60,7 @@ body{
     height:60px;
     line-height: 100%;
     background-color: #FFFFFF;
-    padding:10px 0 10px 0;
+    padding:10px 0 0 0;
     color: #405465;
 }
 
@@ -138,7 +138,7 @@ header{
     margin:auto;
     /* width:80%; */
     width:100%;
-    height:800px;
+    /* height:800px; */
     background-color: beige;
     position:relative;
 }
@@ -183,14 +183,14 @@ header{
 }
 
 .barra_blu{
-    height: 85px;
+    height: 87px;
     width:100%;
     background-color:#AFEBE4;
     position: absolute;
-    bottom:65px;
+    bottom:0;
     left:0;
-    border-top: 3px solid #678C94;
-    
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
 
 }
 /* /header */
