@@ -12,8 +12,10 @@
 }
 
 body{
-   /*  font-family: 'Montserrat', sans-serif; */
-   font-family: Arial, Helvetica, sans-serif;
+    color: #405465;
+    
+  /*  font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -143,6 +145,13 @@ header{
     position:relative;
 }
 
+main{
+    width:100%;
+    height:500px;
+   /*  background-color: red; */
+    position:relative;
+}
+
 .intestazione{
     margin: auto;
     /* height:300px; */
@@ -169,7 +178,8 @@ header{
 }
 
 .title p{
-    font-size:15px;
+    font-size:16px;
+    /* font-weight: 400; */
 }
 
 .title span{
@@ -194,3 +204,41 @@ header{
 
 }
 /* /header */
+
+
+/* main */
+
+#cubo{
+    width:60%;
+    height:100%;
+    margin:auto;
+   /*  background-color: green; */
+    position:relative;
+}
+
+#cubo > .img_cubo{
+    display: block;
+    background-size: 350px;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+
+.img_cubo{
+    padding:20px;
+    width:350px;
+    height:270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title2{
+    display: block;
+    margin:0;
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translate(-50% -50%);
+    text-align: center;
+}
+
