@@ -19,7 +19,6 @@ body{
 }
 
 
-
 .container{
     width:100%;
     height:2500px;
@@ -140,7 +139,6 @@ header{
     margin:auto;
     /* width:80%; */
     width:100%;
-    /* height:800px; */
     background-color: beige;
     position:relative;
 }
@@ -154,8 +152,6 @@ main{
 
 .intestazione{
     margin: auto;
-    /* height:300px; */
-    /* height:100%; */
     position: relative;
 }
 
@@ -242,3 +238,64 @@ main{
     text-align: center;
 }
 
+.title2 h2{
+    font-weight: 600;
+}
+
+/* card */
+
+.card{
+    border:2px solid #EAF0F4;
+    box-shadow: 2px;
+    border-radius: 5px;
+    margin: auto;
+    width:80%;
+    height:350px;
+    background-color: red;
+    position:relative;
+}
+
+.libro{
+    width:30%;
+   /*  height:100%; */
+    float:left;
+    padding:30px 0 30px 80px;
+
+}
+
+.libro img{
+    width:200px;
+    height:200px;
+}
+
+.libro span{
+    padding:15px;
+    position:absolute;
+    left:100px;
+    bottom:75px;
+}
+
+.prima_card{
+    width:70%;
+    height:100%;
+    float:left;
+    padding:50px 50px 30px 50px;
+    position:relative;
+    background-color: salmon;
+}
+
+.prima_card h2{
+    font-weight: 600;
+}
+
+.prima_card h3{
+    padding-top: 35px;
+    font-weight: 700;
+}
+
+.prima_card ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+}
