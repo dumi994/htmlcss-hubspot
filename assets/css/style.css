@@ -13,9 +13,8 @@
 
 body{
     color: #405465;
-    
-  /*  font-family: Arial, Helvetica, sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* utility */
@@ -42,12 +41,6 @@ body{
     height:1px;
     background-color: black;
     margin:30px auto ;
-}
-
-.container{
-    width:100%;
-    height:2500px;
-    background-color: aquamarine;
 }
 
 /* navigator */
@@ -346,13 +339,17 @@ main{
 
 .cards3{
     float: left;
-    margin:0 60px 20px 0;
-    width: 30%;
+    /* margin:0 60px 20px 0; */
+    width: 32%;
     height: 830px;
     background-color:white;
     display: inline-block;
     border-radius: 5px;
     position:relative;
+}
+
+.cards3:nth-child(2){
+    margin:0 2%;
 }
 .col3 .cards3:last-child{
     margin-right: 0;
@@ -378,20 +375,18 @@ main{
 }
 
 .info_container{
-    margin-top:0px;
+    margin-top:30px;
     width:100%;
-    height:800px;
-    background-color: #00B7AC;
+    height:725px;
     color:white;
+    background: linear-gradient(90deg, #00A8B9 0%, #00B9A9 100%);
 }
 
 .info_text{
-    height: 300px;
     width:70%;
     margin:auto;
-    background-color: blue;
     text-align: center;
-    padding:10px;
+    padding:20px 0 50px 0;
 }
 
 .info_text h2{
@@ -401,16 +396,39 @@ main{
 .info_content{
     width: 70%;
     height:200px;
-    background-color: green;
+    /* background-color: green; */
     margin:auto;
 }
  
 .card4{
+    padding:20px;
     text-align: center;
     float:left;
     display: inline-block;
-    border:1px solid black;
     width: calc(100% / 4);
     height:100%;
+}
+
+.card4 h2{
+    font-weight: 800;
+}
+
+.card4 span{
+    font-size: 14px;
+}
+
+.border_br{
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;;
+}
+
+.border_r{
+    border-right: 1px solid white;
+}
+
+.border_b{
+    border-bottom:1px solid white;
 }
 
