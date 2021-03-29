@@ -346,7 +346,7 @@ main{
 
 .cards3{
     float: left;
-    margin:0 60px 60px 0;
+    margin:0 60px 20px 0;
     width: 30%;
     height: 830px;
     background-color:white;
@@ -377,5 +377,40 @@ main{
     
 }
 
+.info_container{
+    margin-top:0px;
+    width:100%;
+    height:800px;
+    background-color: #00B7AC;
+    color:white;
+}
+
+.info_text{
+    height: 300px;
+    width:70%;
+    margin:auto;
+    background-color: blue;
+    text-align: center;
+    padding:10px;
+}
+
+.info_text h2{
+    padding:15px;
+}
+
+.info_content{
+    width: 70%;
+    height:200px;
+    background-color: green;
+    margin:auto;
+}
  
+.card4{
+    text-align: center;
+    float:left;
+    display: inline-block;
+    border:1px solid black;
+    width: calc(100% / 4);
+    height:100%;
+}
 
