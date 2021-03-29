@@ -13,7 +13,7 @@
 
 body{
     color: #405465;
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -121,6 +121,9 @@ nav{
     float:right;
     line-height: 40px;
 }
+.nav2_right ul li{
+    margin-right: 20px;
+}
 
 .btn{
     border:1px solid #FE775A;
@@ -172,7 +175,7 @@ header{
 main{
     width:100%;
    /*  height:500px; */
-   /*  background-color: red; */
+    background-color:aquamarine;
     position:relative;
 }
 
@@ -192,7 +195,6 @@ main{
     position:absolute;
     left:10%;
     top:10%;
-    /* background-color: yellow; */
 }
 
 .title h1{
@@ -201,7 +203,6 @@ main{
 
 .title p{
     font-size:16px;
-    /* font-weight: 400; */
 }
 
 .title span{
@@ -281,7 +282,6 @@ main{
    /*  height:100%; */
     float:left;
     padding:30px 0 30px 80px;
-
 }
 
 .libro img{
@@ -290,10 +290,11 @@ main{
 }
 
 .libro span{
-    padding:15px;
+    padding:15px 50px;
     position:absolute;
-    left:100px;
-    bottom:75px;
+    left:80px;
+    bottom:60px;
+    
 }
 
 .prima_card{
@@ -365,17 +366,12 @@ main{
     padding-bottom: 10px;
 }
 
-.cards3 p{
-    padding:20px
-}
-
 .cards3 span:last-child{
     position: absolute;
     left:50%;
     transform: translate(-50%);
     padding:20px 30px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
 }
 
 /* info section /////////////////////////// */
@@ -402,18 +398,17 @@ main{
 .info_content{
     width: 70%;
     height:200px;
-    /* background-color: green; */
     margin:auto;
 }
  
 .card4{
-
     text-align: center;
     float:left;
     display: inline-block;
     width: calc(100% / 4);
     height:100%;
     position:relative;
+    padding:20px;
 }
 
 .card4 h2{
@@ -449,17 +444,18 @@ main{
 
 .testo_partners{
     color:#33475B;
-    width:30%;
-    text-align: center;
-    
+    width:20%;
+    text-align: center;   
     float:left;
+    
 }
 
 .logo_partners{
     text-align: right;
     padding:10px 20px 0 0;
-    /* line-height: 100px; */
 }
+
+
  /* /////////////////// PARTNERS ///////////////////// */
 
  /* /////////////// PRIMA RIGA ////////////////////// */
@@ -537,7 +533,7 @@ main{
     margin:5px;
     display: inline-block;
     width: 150px;
-    height:60px;
+    height:55px;
     background-size: 150px;
     background-repeat: no-repeat;
 }
@@ -610,7 +606,7 @@ main{
 footer{
     background-color: #32495B;
     width:100%;
-    height: 400px;
+    height: 600px;
     margin-top: 40px;
     color:white;
     line-height: 35px;
@@ -624,9 +620,8 @@ footer ul li{
  
 .foot_container{
     width:80%;
-    height:100%;
+    height:400px;
     margin:auto;
-    background-clip: red;
 }
 
 #btn_ft{
@@ -649,9 +644,44 @@ footer ul li{
     bottom:10%;
 }
 
-.piccolo_loghi span i{
-    margin:40px;
+.margin{
+    margin-right: 25px;
 }
 
+.card4_footer{
+    text-align: center;
+    float:left;
+    display: inline-block;
+    width: calc(100% / 4);
+    height:100%;
+    position:relative;
+    padding-top: 20px 0;
+    border-bottom: 1px soldi white;
+}
+
+
+.lingue_ft ul li{
+    margin: 0 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.policy ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    line-height:10px;
+    text-align: right;
+}
+
+.policy{
+    display: inline-block;
+    float:right;
+}
+
+.copyright{
+    display: block;
+}
 /* \\\\\\\\\\\\\\\\\\    /FOOTER \\\\\\\\\\\\\\\\\\\\\\\\ */
 
+&nbsp;&nbsp;&nbsp;
