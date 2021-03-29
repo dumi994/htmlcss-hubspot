@@ -17,7 +17,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* utility */
+/* utility  ////////////////////////////////////////////////// */
+.fw7{
+    font-weight: 700;
+    padding:10px;
+}
 
 .block{
     display: block;
@@ -43,7 +47,11 @@ body{
     margin:30px auto ;
 }
 
-/* navigator */
+ul li{
+    list-style: none;
+}
+
+/* navigator  //////////////////////////////////////////////////*/
 
 .nav1{  
     width:100%;
@@ -149,9 +157,9 @@ a{
     text-decoration: none;
 }
 
-/* /navigator */
+/* /navigator ////////////////////////////////////////////////// */
 
-/* header */
+/* header ////////////////////////////////////////////////// */
 
 header{
     margin:auto;
@@ -217,10 +225,10 @@ main{
     border-bottom: 3px solid #33475B;
 
 }
-/* /header */
+/* /header /////////////////////////////////////////////////// */
 
 
-/* main */
+/* main  /////////////////////////////////////////////////*/
 
 #cubo{
     width:60%;
@@ -255,7 +263,7 @@ main{
     
 }
 
-/* card */
+/* card ////////////////////////////////////// */
 
 .card{  
     border:2px solid #EAF0F4;
@@ -298,10 +306,6 @@ main{
 
 
 
-.fw7{
-    font-weight: 700;
-    padding:10px;
-}
 
 .prima_card h3{
     padding-top: 35px;
@@ -374,6 +378,8 @@ main{
     
 }
 
+/* info section /////////////////////////// */
+
 .info_container{
     margin-top:30px;
     width:100%;
@@ -432,3 +438,171 @@ main{
     border-bottom:1px solid white;
 }
 
+
+/* partners section  /////////////////////////*/
+
+.partners{
+    width:70%;
+    margin:auto;   
+}
+
+.testo_partners{
+    color:#33475B;
+    width:30%;
+    text-align: center;
+    
+    float:left;
+}
+
+.logo_partners{
+    text-align: right;
+    padding:10px 20px 0 0;
+    /* line-height: 100px; */
+}
+ /* /////////////////// PARTNERS ///////////////////// */
+
+ /* /////////////// PRIMA RIGA ////////////////////// */
+
+.atlasian{
+    background-image: url(../img/atlasian.webp);
+    margin:5px;
+    display: inline-block;
+    width:150px;
+    height:30px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.doordash{
+    background-image: url(../img/doordash.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:30px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.crowd{
+    background-image: url(../img/g2crowd.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.purple{
+    background-image: url(../img/purple.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+ /* ///////////////   /PRIMA RIGA ////////////////////// */
+
+ /* /////////////// SECONDA RIGA ////////////////////// */
+
+/* .logo_partners div{
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+} */
+
+.subaru{
+    background-image: url(../img/subaru.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.wistia{
+    background-image: url(../img/wistia.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:40px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.classpass{
+    background-image: url(../img//classpass.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:60px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.vmware{
+    background-image: url(../img/vmware.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+ /* ///////////////    /SECONDA RIGA ////////////////////// */
+ /* ///////////////////    /PARTNERS ///////////////////// */
+
+ /* \\\\\\\\\\\\\\\\\\ contenuto finale \\\\\\\\\\\\\\\\\ */
+
+
+    /* sinistra */
+ .contenuto_fin{
+    width:80%;
+    height: 450px;
+    margin: 10px auto;
+    position:relative;
+ }
+
+ .con_fin_txt{
+    padding:20px;
+    width:40%;
+    height: 100%;
+    text-align: left;
+    float:left;
+    line-height: 2rem;
+
+ }
+ 
+ .con_fin_img{
+    width:60%;
+    height:100%;
+    float:left;
+ }
+.con_fin_txt span{
+    padding:20px;
+}
+
+.margin{
+    margin:40px 0 40px 0;
+}
+
+.margin0{
+    margin:0;
+}
+
+    /* /sinistra */
+
+    /* destra */
+.con_fin_img img{
+    text-align: right;
+    float:right;
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    /* /destra */
+
+
+ 
