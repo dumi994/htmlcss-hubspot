@@ -407,12 +407,13 @@ main{
 }
  
 .card4{
-    padding:20px;
+
     text-align: center;
     float:left;
     display: inline-block;
     width: calc(100% / 4);
     height:100%;
+    position:relative;
 }
 
 .card4 h2{
@@ -574,11 +575,11 @@ main{
 
  }
  
- .con_fin_img{
-    width:60%;
-    height:100%;
-    float:left;
- }
+.con_fin_img{
+   width:60%;
+   height:100%;
+   float:left;
+}
 .con_fin_txt span{
     padding:20px;
 }
@@ -604,5 +605,53 @@ main{
 
     /* /destra */
 
+/* \\\\\\\\\\\\\\\\\\ FOOTER \\\\\\\\\\\\\\\\\\\\\\\\ */
 
+footer{
+    background-color: #32495B;
+    width:100%;
+    height: 400px;
+    margin-top: 40px;
+    color:white;
+    line-height: 35px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: left;;
+
+}
  
+.foot_container{
+    width:80%;
+    height:100%;
+    margin:auto;
+    background-clip: red;
+}
+
+#btn_ft{
+    margin:10px;
+    background-color: #DADEE0;
+    color:#32495B;
+    float:left;
+    margin-left: 0;
+    position:absolute;
+    left:0;
+    border:1px solid white;
+}
+
+.piccoli_loghi{
+    width:100%;
+    height:50px;
+    text-align: left;
+    position:absolute;
+    left:0;
+    bottom:10%;
+}
+
+.piccolo_loghi span i{
+    margin:40px;
+}
+
+/* \\\\\\\\\\\\\\\\\\    /FOOTER \\\\\\\\\\\\\\\\\\\\\\\\ */
+
