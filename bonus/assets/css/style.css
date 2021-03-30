@@ -1,0 +1,740 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    /*  */
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+body{
+    color: #405465;
+/*     background-color: aquamarine; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utility  ////////////////////////////////////////////////// */
+.fw7{
+    font-weight: 700;
+    padding:10px;
+}
+
+.block{
+    display: block;
+}
+
+.text_align{
+    text-align: center;
+}
+
+.red{
+    color:red;
+}
+
+.testogrosso{
+    font-weight: 600;
+}
+
+.linea_or{
+    content:'';
+    width:60%;
+    height:1px;
+    background-color: black;
+    margin:30px auto ;
+}
+
+ul li{
+    list-style: none;
+}
+
+.line_he{
+    line-height: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 160px; */
+    width:500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: left;
+    font-size: 12px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown_logo, .dropdown_text{
+      display: inline-block;
+      float:left;
+}
+.dropdown_logo img{
+    width:45px;
+    height: 45px;
+    margin-top: 7px;
+}
+
+.margin0{
+    margin-left: 0;
+}
+
+.margin_t{
+    margin-top: 10px;
+}
+
+.new{
+    background-color: #00B9A9;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+    margin-left: 10px;
+}
+
+
+/* navigator  //////////////////////////////////////////////////*/
+
+.nav1{  
+    width:100%;
+    margin:auto; 
+    padding:20px 0 20px 0;
+    background-color:#F4F9FD;
+    border-bottom: 1px solid black;
+}
+
+.nav1 ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+.nav2 ul li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+.nav2 ul{
+    display: inline-block;
+}
+
+.nav1 ul li:nth-child(2){
+    margin-left:20px;
+}
+
+.nav1 ul li:nth-child(1){
+    border-right: 1px solid;
+    padding-right: 10px;
+}
+
+.nav2{
+    height:60px;
+    line-height: 100%;
+    background-color: #FFFFFF;
+    padding:10px 0 0 0;
+    color: #405465;
+}
+
+.nav_logo{
+    display: inline-block;
+    width:25%;
+    vertical-align: middle;
+}
+
+nav{
+    margin:auto;
+    width:80%;
+}
+
+.nav_left{
+    float:left;
+}
+
+.nav_left a{
+    text-decoration: none;
+    color:#405566;
+}
+
+
+.nav_right{
+    text-align: right;
+}
+.nav2_right{
+    width:75%;
+    text-align: right;
+    float:right;
+    line-height: 40px;
+}
+.nav2_right ul li{
+    margin-right: 20px;
+}
+
+.btn{
+    border:1px solid #FE775A;
+    padding:10px;
+    border-radius:5px ;
+    background: transparent;
+    background-color: #FAFCFE;
+    color:#FE775A;
+    margin:10px;
+}
+
+.btn:hover{
+    background-color: #FE775A;
+    color:white;
+}
+
+.btn_solid{
+    background-color: #FE775A;
+    color:white;
+}
+
+.btn_solid:hover{
+    background-color: white;
+    color:#FE775A;
+
+}
+
+.fa, .fa-search{
+    margin-right: 10px;
+    color: #1BADC4;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* /navigator ////////////////////////////////////////////////// */
+
+/* header ////////////////////////////////////////////////// */
+
+header{
+    margin:auto;
+    /* width:80%; */
+    width:100%;
+    background-color: beige;
+    position:relative;
+}
+
+main{
+    width:100%;
+   /*  height:500px; */
+    background-color:aquamarine;
+    position:relative;
+}
+
+.intestazione{
+    margin: auto;
+    position: relative;
+}
+
+.intestazione>img{
+    width:100%;
+}
+
+.title{
+    font-weight: 500;
+    width:30%;
+    margin:auto;
+    position:absolute;
+    left:10%;
+    top:10%;
+}
+
+.title h1{
+    font-weight: 800;
+}
+
+.title p{
+    font-size:16px;
+}
+
+.title span{
+    padding:20px;
+    float:left;
+    margin:30px 0 0 0;
+}
+
+.title :nth-child(4){
+    padding:0;
+}
+
+.barra_blu{
+    height: 87px;
+    width:100%;
+    background-color:#AFEBE4;
+    position: absolute;
+    bottom:0;
+    left:0;
+    border-top: 3px solid #33475B;
+    border-bottom: 3px solid #33475B;
+
+}
+/* /header /////////////////////////////////////////////////// */
+
+
+/* main  /////////////////////////////////////////////////*/
+
+#cubo{
+    width:60%;
+    height:100%;
+    margin:auto;
+   /*  background-color: green; */
+    position:relative;
+}
+
+#cubo > .img_cubo{
+    margin:auto;
+    display: block;
+
+}
+
+.img_cubo{
+    width:350px;
+    height:270px; 
+    padding-top: 20px;
+}
+
+.title2{
+    margin:0;
+    text-align: center;
+}
+
+.title2 h2{
+    font-weight: 600;
+}
+
+.title2 span{
+    
+}
+
+/* card ////////////////////////////////////// */
+
+.card{  
+    border:2px solid #EAF0F4;
+    box-shadow: 2px;
+    border-radius: 5px;
+    margin:30px auto;
+    width:80%;
+    height:350px;
+    background-color: white;
+    position:relative;
+}
+
+.libro{
+    width:30%;
+   /*  height:100%; */
+    float:left;
+    padding:30px 0 30px 80px;
+}
+
+.libro img{
+    width:200px;
+    height:200px;
+}
+
+.libro span{
+    padding:15px 50px;
+    position:absolute;
+    left:80px;
+    bottom:60px;
+    
+}
+
+.prima_card{
+    width:70%;
+    height:100%;
+    float:left;
+    padding:50px 50px 30px 50px;
+    position:relative;    
+}
+
+
+
+
+.prima_card h3{
+    padding-top: 35px;
+}
+
+.prima_card ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px 0 0;
+}
+
+.prima_card ul li i{
+    margin:10px 10px 10px 0;
+    
+}
+
+
+
+.prima_card h3::after{
+    margin-top: 20px;
+    margin-left: 30px;
+    content:'';
+    width:65%;
+    height:1px;
+    background-color: black;
+    float:right;
+}   
+
+
+.col3{
+    width:80%;
+    margin:auto;
+}
+
+.cards3{
+    float: left;
+    /* margin:0 60px 20px 0; */
+    width: 32%;
+    height: 830px;
+    background-color:white;
+    display: inline-block;
+    border-radius: 5px;
+    position:relative;
+}
+
+.cards3:nth-child(2){
+    margin:0 2%;
+}
+.col3 .cards3:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.cards3 span{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.cards3 span:last-child{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    padding:20px 30px;
+    margin-top: 30px;   
+}
+
+/* info section /////////////////////////// */
+
+.info_container{
+    margin-top:30px;
+    width:100%;
+    height:725px;
+    color:white;
+    background: linear-gradient(90deg, #00A8B9 0%, #00B9A9 100%);
+}
+
+.info_text{
+    width:70%;
+    margin:auto;
+    text-align: center;
+    padding:20px 0 50px 0;
+}
+
+.info_text h2{
+    padding:15px;
+}
+
+.info_content{
+    width: 70%;
+    height:200px;
+    margin:auto;
+}
+ 
+.card4{
+    text-align: center;
+    float:left;
+    display: inline-block;
+    width: calc(100% / 4);
+    height:100%;
+    position:relative;
+    padding:20px;
+}
+
+.card4 h2{
+    font-weight: 800;
+}
+
+.card4 span{
+    font-size: 14px;
+}
+
+.border_br{
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;;
+}
+
+.border_r{
+    border-right: 1px solid white;
+}
+
+.border_b{
+    border-bottom:1px solid white;
+}
+
+
+/* partners section  /////////////////////////*/
+
+.partners{
+    width:70%;
+    margin:auto;   
+}
+
+.testo_partners{
+    color:#33475B;
+    width:20%;
+    text-align: center;   
+    float:left;
+    
+}
+
+.logo_partners{
+    text-align: right;
+    padding:10px 20px 0 0;
+}
+
+
+ /* /////////////////// PARTNERS ///////////////////// */
+
+ /* /////////////// PRIMA RIGA ////////////////////// */
+
+.atlasian{
+    background-image: url(../img/atlasian.webp);
+    margin:5px;
+    display: inline-block;
+    width:150px;
+    height:30px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+.doordash{
+    background-image: url(../img/doordash.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:30px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.crowd{
+    background-image: url(../img/g2crowd.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.purple{
+    background-image: url(../img/purple.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+ /* ///////////////   /PRIMA RIGA ////////////////////// */
+
+ /* /////////////// SECONDA RIGA ////////////////////// */
+
+/* .logo_partners div{
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+} */
+
+.subaru{
+    background-image: url(../img/subaru.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.wistia{
+    background-image: url(../img/wistia.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:40px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.classpass{
+    background-image: url(../img//classpass.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:55px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+.vmware{
+    background-image: url(../img/vmware.webp);
+    margin:5px;
+    display: inline-block;
+    width: 150px;
+    height:50px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+ /* ///////////////    /SECONDA RIGA ////////////////////// */
+ /* ///////////////////    /PARTNERS ///////////////////// */
+
+ /* \\\\\\\\\\\\\\\\\\ contenuto finale \\\\\\\\\\\\\\\\\ */
+
+
+    /* sinistra */
+ .contenuto_fin{
+    width:80%;
+    height: 450px;
+    margin: 10px auto;
+    position:relative;
+ }
+
+ .con_fin_txt{
+    padding:20px;
+    width:40%;
+    height: 100%;
+    text-align: left;
+    float:left;
+    line-height: 2rem;
+
+ }
+ 
+.con_fin_img{
+   width:60%;
+   height:100%;
+   float:left;
+}
+.con_fin_txt span{
+    padding:20px;
+}
+
+.margin{
+    margin:40px 0 40px 0;
+}
+
+.margin0{
+    margin:0;
+}
+
+    /* /sinistra */
+
+    /* destra */
+.con_fin_img img{
+    text-align: right;
+    float:right;
+    height:100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    /* /destra */
+
+/* \\\\\\\\\\\\\\\\\\ FOOTER \\\\\\\\\\\\\\\\\\\\\\\\ */
+
+footer{
+    background-color: #32495B;
+    width:100%;
+    height: 600px;
+    margin-top: 40px;
+    color:white;
+    line-height: 35px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: left;;
+
+}
+ 
+.foot_container{
+    width:80%;
+    height:400px;
+    margin:auto;
+}
+
+#btn_ft{
+    margin:10px;
+    background-color: #DADEE0;
+    color:#32495B;
+    float:left;
+    margin-left: 0;
+    position:absolute;
+    left:0;
+    border:1px solid white;
+}
+
+.piccoli_loghi{
+    width:100%;
+    height:50px;
+    text-align: left;
+    position:absolute;
+    left:0;
+    bottom:10%;
+}
+
+.margin{
+    margin-right: 25px;
+}
+
+.card4_footer{
+    text-align: center;
+    float:left;
+    display: inline-block;
+    width: calc(100% / 4);
+    height:100%;
+    position:relative;
+    padding-top: 20px 0;
+    border-bottom: 1px soldi white;
+}
+
+
+.lingue_ft ul li{
+    margin: 0 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.policy ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    line-height:10px;
+    text-align: right;
+}
+
+.policy{
+    display: inline-block;
+    float:right;
+}
+
+.copyright{
+    display: block;
+}
+/* \\\\\\\\\\\\\\\\\\    /FOOTER \\\\\\\\\\\\\\\\\\\\\\\\ */
+
+&nbsp;&nbsp;&nbsp;
