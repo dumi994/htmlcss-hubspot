@@ -64,8 +64,7 @@ ul li{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    /* min-width: 160px; */
-    width:500px;
+    min-width:480px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
@@ -80,6 +79,11 @@ ul li{
 .dropdown_logo, .dropdown_text{
       display: inline-block;
       float:left;
+}
+
+.dropdown_text{
+    display: inline-block;
+    width:500px;
 }
 .dropdown_logo img{
     width:45px;
@@ -101,6 +105,15 @@ ul li{
     border-radius: 5px;
     padding:5px;
     margin-left: 10px;
+}
+
+.drop3col{
+    font-size: 12px;
+    width: calc(100% / 3);
+    display: inline-block;
+    float:left;
+    line-height: 20px;
+    padding-right: 15px;
 }
 
 
