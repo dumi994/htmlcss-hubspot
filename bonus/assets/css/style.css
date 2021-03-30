@@ -23,6 +23,10 @@ body{
     padding:10px;
 }
 
+.fw6{
+    font-weight: 600;
+}
+
 .block{
     display: block;
 }
@@ -63,6 +67,8 @@ ul li{
 .dropdown-content {
     display: none;
     position: absolute;
+    top:40px;
+    right:0;
     background-color: #f9f9f9;
     min-width:480px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -71,6 +77,16 @@ ul li{
     text-align: left;
     font-size: 12px;
 }
+/* \\\\\\\\\\\\\\\\\\\\\\ dimensione contenuto dropdown menu\\\\\\\\\\\\\\\\\ */
+.contenuto_largo{
+    width:900px;
+}
+
+.contenuto_medio{
+    width:700px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\ dimensione contenuto dropdown menu\\\\\\\\\\\\\\\\\ */
   
 .dropdown:hover .dropdown-content {
     display: block;
@@ -82,8 +98,7 @@ ul li{
 }
 
 .dropdown_text{
-    display: inline-block;
-    width:500px;
+    width:700px;
 }
 .dropdown_logo img{
     width:45px;
@@ -109,11 +124,18 @@ ul li{
 
 .drop3col{
     font-size: 12px;
-    width: calc(100% / 3);
-    display: inline-block;
-    float:left;
+    width: calc(100% / 3 - 1%);
+    display: inline-block;  
     line-height: 20px;
-    padding-right: 15px;
+    padding-right: 10px;
+}
+
+.drop2col{
+    font-size: 12px;
+    width: calc(100% / 2 - 2%);
+    display: inline-block;  
+    line-height: 20px;
+    padding-right: 10px;
 }
 
 
