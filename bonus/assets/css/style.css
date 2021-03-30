@@ -51,6 +51,10 @@ body{
     margin:30px auto ;
 }
 
+.float_left{
+    float:left;
+}
+
 ul li{
     list-style: none;
 }
@@ -83,7 +87,7 @@ ul li{
 }
 
 .contenuto_medio{
-    width:700px;
+    width:650px;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\\\ dimensione contenuto dropdown menu\\\\\\\\\\\\\\\\\ */
